@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .C{
+            border-style: solid;
+            border-color:aliceblue;
+            margin-left:135px;
+            margin-right:135px;
+        }
+       .A{
+        color:rgb(0, 110, 255);
+        font-size:50px;
+        text-align:center;
+       }
+       .B{
+        text-align:center;
+        font-size:20px;
+
+       }
+     
+       .D{
+          width:300px;
+          height:35px;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          padding-left: 10px;
+          margin-left: 45px;
+
+       }
+       .E{
+        width:300px;
+        height:35px;
+        border-radius: 4px;
+        padding-left: 10px;
+        margin-left: 45px;
+        margin-bottom: 10px;
+        
+
+       }
+       .F{
+        width:300px;
+        height:35px;
+        border-radius: 4px;
+        padding-left: 10px;
+        margin-left: 45px;
+        text-align:center;
+        font-weight:bold;
+        color:white;
+        background-color: blue;
+        cursor:pointer;
+       }
+       .F:hover{
+        background-color: darkgreen;
+       }
+       .X{
+        text-align:center;
+        color:blue;
+        font-weight:bold;
+
+       }
+       .Y{
+        background-color:chartreuse;
+        color:white;
+        height:38px;
+        width:200px;
+        border-radius: 5px;
+        margin-left:145px;
+        cursor:pointer;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        
+       }
+    </style>
+    
+</head>
+<body>
+    
+   <h1 class="A">facebook</h1>
+   <div class="C">
+   <p class="B"><b>Log in to Facebook</b></p>
+   <form class="D">
+    <input type="text" class="D" placeholder="Email address or phone number">
+    <br>
+    <input type="password" class="E" placeholder="Password">
+    <br>
+    <input type="password" class="F" placeholder="Log in">
+   </form>
+  
+      
+<br>
+<br>
+<br>
+<br>
+
+<p class="X">Forgotten account?</p>
+
+<button class="Y">Create new account</button>
+</div>
+
+</body>
+</html>
